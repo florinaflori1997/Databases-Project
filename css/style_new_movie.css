@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo:400,700");
+:root{
+  --color-yellow: #E0CBC0;
+	--color-red: #5C6370;
+  --color-green: #854B5B;
+  --color-dark: #361B28;
+}
+* {
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+body,
+html {
+  font-family: 'Arimo', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--color-green) !important;
+  color: white !important;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, p {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #6ABCEA;
+}
+input{
+  color:black;
+}
+.user_card {
+  height: 600px;
+  width: 700px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: var(--color-dark);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.user_card label{
+  font-weight: 400;
+  font-size: 14px;
+}
